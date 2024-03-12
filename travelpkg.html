@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .slider1 {
+        height: 500px;
+        width: 100%;
+        background-image: url(gallery/naran-img2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation-name: slideshow1;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        transition: ease-in-out;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+
+    }
+    @keyframes slideshow1 {
+        0% {
+            background-image: url(gallery/naran-img2.jpg);
+        }
+
+        25% {
+            background-image: url(gallery/murree.jpg);
+        }
+
+        50% {
+            background-image: url(gallery/naran-img6.jpg);
+        }
+
+        75% {
+            background-image: url(gallery/murree2.jpg);
+        }
+
+        100% {
+            background-image: url(gallery/murree3.jpg);
+        }
+    }
+    .slider2{
+        height: 500px;
+        width: 100%;
+        background-image: url(gallery/islamabad1.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation-name: slideshow2;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        transition: ease-in-out;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+
+
+    }
+    @keyframes slideshow2 {
+        0% {
+            background-image: url(assets/naran-kaghan.jpg);
+        }
+
+        25% {
+            background-image: url(assets/murree.jpg);
+        }
+
+        50% {
+            background-image: url(assets/northern\ 3.jpg);
+        }
+
+        75% {
+            background-image: url(gallery/swat3.jpg);
+        }
+
+        100% {
+            background-image: url(gallery/naran-img6.jpg);
+        }
+    }
+    .slider3 {
+        height: 500px;
+        width: 100%;
+        background-image: url(slideshow/isl1.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation-name: slideshow3;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        transition: ease-in-out;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+
+    }
+    @keyframes slideshow3 {
+        0% {
+            background-image: url(slideshow/isl1.jpg);
+        }
+
+        20% {
+            background-image: url(slideshow/Karachi1.jpg);
+        }
+
+        40% {
+            background-image: url(slideshow/lahore1.webp);
+        }
+
+        60% {
+            background-image: url(slideshow/murre1.jpg);
+        }
+        80% {
+            background-image: url(assets/hunza.jpg);
+        }
+        100% {
+            background-image: url(gallery/murree3.jpg);
+        }
+    }
+    .slider4{
+        height: 500px;
+        width: 100%;
+        background-image: url(slideshow/isl2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation-name: slideshow4;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        transition: ease-in-out;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+
+
+    }
+    @keyframes slideshow4 {
+        0% {
+            background-image: url(slideshow/isl2.jpg);
+        }
+
+        20% {
+            background-image: url(slideshow/karachi2.webp);
+        }
+
+        40% {
+            background-image: url(slideshow/lahore2.webp);
+        }
+
+        60% {
+            background-image: url(slideshow/murree2.jpg);
+        }
+        80% {
+            background-image: url(slideshow/swat2.webp);
+        }
+        100% {
+            background-image: url(gallery/murree3.jpg);
+        }
+    }
+
+    .pkg {
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 3px 2px 2px gray;
+        text-align: center;
+    }
+
+    .black_img {
+        height: 200px;
+        width: 100%;
+        opacity: 50%;
+        position: relative;
+        top: 300px;
+
+    }
+
+    .slider1>p {
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        color:white;
+        text-shadow: 2px 2px 3px black;
+        position:relative;
+        top: 130px;
+        margin-left: 50px;
+    }
+    .slider2>p {
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        color:white;
+        text-shadow: 2px 2px 3px black;
+        position:relative;
+        top: 130px;
+        margin-left: 50px;
+    }
+    .slider3>p {
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        color:white;
+        text-shadow: 2px 2px 3px black;
+        position:relative;
+        top: 130px;
+        margin-left: 50px;
+    }
+    .slider4>p {
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        color:white;
+        text-shadow: 2px 2px 3px black;
+        position:relative;
+        top: 130px;
+        margin-left: 50px;
+    }
+    .book {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(38, 38, 196);
+        padding: 8px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        margin-left: 600px;
+    }
+</style>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="assets/new logo.png" alt="" style="height:90px;border-radius: 50%;"></div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="travelpkg.html"target="_self">Travel Packages</a></li>
+                <li><a href="gallery.html"target="_self">Gallery</a></li>
+                <li><a href="services.html" target="_self">Services</a></li>
+                <li><a href="about.html" target="_self">About Us</a></li>
+                <li><a href="contact.html" target="_self">Contact</a></li>
+                <li><a href="signup.html" target="_self">Book Now</a></li>
+                
+            </ul>
+        </div>
+        <div class="buttons-container">
+            <a href="signup.html" target=_blank class="sign-up-button">Sign Up</a>
+            <a href="signin.html" target=_blank class="sign-in-button">Sign In</a>
+            </div>
+    </div>
+    <marquee><i><span style="background-color: darkred; color: white;">--- Embark on an unforgettable journey with our exclusive tour experience—where every moment is a page-turner in your adventure story!---</span></i></marquee>
+    <br>
+    <h1 class="pkg">5 Days Tour Package</h1>
+    <br><br>
+    <div class="slider1">
+        <img src="assets/black color.jpg" alt="" class="black_img">
+        <p><span style=color:gold; > PACKAGE 1 (5 Days)</span></p><br>
+        <p>Islamabad and Murree </p>
+        <p>Hotel</p>
+        <p>Rs:15,000 p/p</p>
+        <p>Pakistan tour package average estimated cost is about PKR 120000/- ($727). </p>
+    </div>
+    <br><br><br>
+    <h1 class="pkg">10 Days Tour Package</h1>
+    <br><br>
+    <div class="slider2">
+        <img src="assets/black color.jpg" alt="" class="black_img">
+        <p><span style=color:gold; > PACKAGE 2 (10 Days)</span></p><br>
+        <p>Islamabad, Murree, Naran, Kaghan & Swat</p>
+        <p>Hotel and Tour Guide</p>
+        <p>Rs:25,000 p/p.</p>
+        <p>Pakistan tour package average estimated cost is about PKR 120000/- ($727). </p>
+    </div>
+    <br><br><br>
+    <h1 class="pkg">15 Days Tour Package</h1>
+    <br><br>
+    <div class="slider3">
+        <img src="assets/black color.jpg" alt="" class="black_img">
+        <p><span style=color:gold; > PACKAGE 3 (15 Days)</span></p><br>
+        <p>Lahore, Islamabad, Muzaffarabad, Swat and Hunza</p>
+        <p> Hotel and Transport</p>
+        <p>Rs:30,000 p/p</p>
+        <p>Pakistan tour package average estimated cost is about PKR 120000/- ($727). </p>
+    </div>
+    <br><br><br>
+    <h1 class="pkg">20 Days Tour Package</h1>
+    <br><br>
+    <div class="slider4">
+        <img src="assets/black color.jpg" alt="" class="black_img">
+        <p><span style=color:gold; > PACKAGE 4 (20 Days)</span></p><br>
+        <p>Islamabad, Naran, Kaghan, Swat, Hunza, Gilgit Baltistan & Muzaffarabad</p>
+        <p>Hotel, Transport and Tour Guide</p>
+        <p>Rs:36,000 p/p</p>
+        <p>Pakistan tour package average estimated cost is about PKR 120000/- ($727). </p>
+    </div>
+    <br><br>
+    <a href="signup.html" target="_blank" class="book">Book Now</a>
+ <br><br><br><br>
+    <div class="footer">
+        <div class="box" style="height: 300px;width: 500px;;position: relative;">
+            <h1
+                style="font-size: 50px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white;">
+                Dreamy Travels</h1><br><br>
+            <p style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;">
+                Provide the tourist market with the quality personal required by the tourism industry. Produce expeditions and memories that would satisfy each and every single of the customers </p>
+            <br><br><br>
+            <p style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;">
+                DREAMY TRAVELS 2022.All Right Reserved.</p>
+        </div>
+
+        <div class="list" style="height: 200px; width:200px;position: relative;">
+            <ul class="list-item"
+                style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;list-style:none;">
+               <a href="about.html" target="_blank"style="text-decoration:none;color:white;"> <li>About</li></a>
+                <br>
+
+<a href="services.html"style="text-decoration:none;color:white;" target="_blank"><li>Services</li></a>
+                <br>
+                <li>Privacy Policy</li>
+                <br>
+                <li>Cookie Policy</li>
+                <br>
+                <li>Terms and Conditions</li>
+            </ul>
+        </div>
+
+        <div style="position: relative;">
+            <h1
+                style="font-size: 50px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white;">
+                Keep In Touch</h1>
+            <p style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;">
+                Enjoy
+                15% off your first tour when you join our mailing list.</p><br>
+                <input type="search" placeholder="Enter your e-mail"
+                style="height: 33px; width: 300px; font-size: 20px; font-family: 'Times New Roman', Times, serif;border-radius: 0px;"><a
+                href=""
+                style="text-decoration: none; color: white;background-color:blue; padding: 12px;border-radius: 5px;">JOIN
+                US</a>
+            <br><br>
+            <ul class="icon">
+                <li><i class="fa fa-facebook" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-google-plus" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-instagram" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-pinterest" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-twitter" style="font-size:24px;color: white;"></i></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

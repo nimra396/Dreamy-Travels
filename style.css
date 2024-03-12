@@ -1,0 +1,335 @@
+.buttons-container {
+    text-align: center;
+}
+
+.sign-up-button,
+.sign-in-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Additional styles for each button */
+.sign-up-button {
+  background-color: #1da541;
+  color: #fcf9f9;
+}
+
+.sign-in-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/*.sign-up-button,
+.sign-in-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: ;
+
+}
+
+.sign-up-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.sign-in-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+}*/
+
+/* ... (rest of your styles) */
+.signup-container{
+    align-tracks: center;
+    background-color:#ddd;
+    border-color: #1a1a1a;
+    border-style: double;
+    padding: 5px;
+
+}
+
+.signin-container{
+    align-tracks: center;
+background-attachment: fixed;
+background-color:#ddd;
+border-color: #1a1a1a;
+border-style: double;
+padding: 20px;
+}
+.form-container{
+align-tracks: center;
+background-attachment: fixed;
+background-color:#ddd;
+border-color: #1a1a1a;
+border-style: double;
+padding: 20px;
+
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="date"],
+.form-container input[type="number"],
+.form-container textarea,
+.form-container input[type="checkbox"],
+.form-container input[type="submit"] {
+    width: 100%; /* Modified width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+    margin-left: auto;
+}
+
+.form-container input[type="checkbox"] {
+    width: auto; /* Adjusted checkbox size */
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.form-container textarea {
+    resize: vertical;
+}
+
+.form-container {
+    width: 60%;
+    margin: 50px auto; /* Adjust the top and bottom margin as needed */
+    /* Rest of your styles for .form-container */
+}
+/* Adjustments specific to the form's appearance */
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: #ffffff;
+    cursor: pointer;
+    width: 20%;
+    
+    
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 10px; /* Adjust as needed */
+    /* Optional: Add margin, padding, or other styles for checkbox */
+}
+
+
+/*book now1 css*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 90px;
+    width: 100% 100%;
+    background-color:rgb(2, 2, 2);
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu>ul>li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    color:rgb(246, 246, 250);
+}
+
+.icons {
+    margin-top: 30px;
+}
+
+.icons>a>i {
+    margin-left: 15px;
+    color: rgb(245, 244, 244);
+}
+
+.btn {
+    padding: 5px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:rgb(249, 250, 249);
+}
+
+.menu>ul>li:hover {
+    text-decoration: underline;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    background-color: #004d66;
+    color: white;
+    border: 1px solid black;
+}
+
+.banner {
+    position: relative;
+    top: 3px;
+    height: 500px;
+    width: 100% 100%;
+}
+
+.banner_img {
+    width: 100%;
+    height: 550px;
+    box-shadow: 3px 3px 2px 4px black;
+}
+
+.tour {
+    height: 750px;
+    width: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    height: 500px;
+    width: 400px;
+    position: relative;
+    top: 130px;
+    box-shadow: 1px 1px 1px 2px grey;
+    transform-style:[1];
+    transition:ease-out;
+    transition-duration: 0.6s;
+    transition-property:all;
+    transition-timing-function: linear;
+}
+.card:hover {
+    transform: scale(1.1);
+
+}
+.card_img {
+    height: 255px;
+}
+
+.facilities {
+    height: 500px;
+    width: 100% 100%;
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -100px;
+
+}
+
+.provide {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 80px;
+}
+
+.provide>p {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 4px 3px 1px black;
+}
+
+.provide>h1 {
+    color: white;
+}
+
+.partner {
+    height:450px;
+    width: 100% 100%;
+}
+
+.partner>h1 {
+    margin-left: 500px;
+    position: relative;
+    top: 60px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.partner>p {
+    margin-left: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 70px;
+}
+
+.partner>img {
+    margin-left: 90px
+}
+
+
+input {
+    height: 40px;
+    width: 400px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.footer>.list>ul>li>a{
+    text-decoration: none;
+}
+
+
+ul>li:hover {
+    color:rgb(251, 251, 253);
+    cursor: pointer;
+}
+
+.icon>li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.abc
+{
+    padding: 20px;
+}

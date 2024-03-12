@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sign Up</title>
+</head>
+<style>
+  
+
+.signup-container {
+    text-align: center;
+
+}
+
+form {
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-direction: column;
+    
+   
+}
+
+.form-group {
+    margin-bottom: 15px;
+    flex-direction: column;
+    display: flex;
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+    height: 35px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+ /* start**/
+ .password-container {
+    position: relative;
+    display: inline-block;
+}
+
+.toggle-password {
+    display:inline;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #3498db;
+}
+
+ /**end**/
+ 
+</style>
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="assets/new logo.png" alt="" style="height:90px;border-radius: 50%;"></div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="travelpkg.html"target="_self">Travel Packages</a></li>
+                <li><a href="gallery.html"target="_self">Gallery</a></li>
+                <li><a href="services.html" target="_self">Services</a></li>
+                <li><a href="about.html" target="_self">About Us</a></li>
+                <li><a href="contact.html" target="_self">Contact</a></li>
+                <li><a href="signup.html" target="_self">Book Now</a></li>
+                
+                
+            </ul>
+        </div>
+        <div class="buttons-container">
+            <a href="signup.html" target=_blank class="sign-up-button">Sign Up</a>
+            <a href="signin.html" target=_blank class="sign-in-button">Sign In</a>
+        </div>
+    </div>
+    <marquee><i><span style="background-color: darkred; color: white;"> ---Embark on an unforgettable journey with our exclusive tour experience—where every moment is a page-turner in your adventure story!---</span></i></marquee>
+    <!--end of navbar-->
+
+    <!--start of form-->
+    
+      <br><br>
+
+    <div class="signup-container">
+        <center>
+            <form action="#" method="post">
+                <h2>Sign Up</h2><br><br>
+            
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your full name" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="Email">Email:</label>
+                    <input type="email" id="Email" name="Email" placeholder="Enter your email" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="ContactNumber">Contact Number:</label>
+                    <input type="tel" id="ContactNumber" name="ContactNumber" placeholder="Enter your contact number" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="confirmpassword">Confirm Password:</label>
+                    <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm password" required>
+                </div>
+            
+                <button type="button" id="signupbutton">Sign Up</button>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const signupbutton = document.getElementById('signupbutton');
+            
+                        signupbutton.addEventListener('click', function(event) {
+                            // Check if all required fields are filled
+                            const username = document.getElementById('username').value.trim();
+                            const Email = document.getElementById('Email').value.trim();
+                            const ContactNumber = document.getElementById('ContactNumber').value.trim();
+                            const password = document.getElementById('password').value.trim();
+                            const confirmpassword = document.getElementById('confirmpassword').value.trim();
+            
+                            if (username && Email && ContactNumber && password && confirmpassword) {
+                                // Redirect only if all fields are filled
+                                window.location.href = 'book now 1.html';
+                            } else {
+                                // If any field is empty, prevent form submission and show an alert
+                                event.preventDefault();
+                                alert('Please fill in all the required fields.');
+                            }
+                        });
+                    });
+                </script>
+
+                <br><br>
+                <p>Already have an account? <a href="signin.html" target="_self">Sign In</a></p>
+            
+                
+            </form>
+            
+        
+    </center>
+    </div>
+
+
+
+<br><br><br>
+
+
+    <!--footer-->
+    <div class="footer">
+        <div class="box" style="height: 300px;width: 500px;;position: relative;">
+            <h1
+                style="font-size: 50px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white;">
+                Dreamy Travels</h1><br><br>
+            <p style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;">
+                Provide the tourist market with the quality personal required by the tourism industry. Produce expeditions and memories that would satisfy each and every single of the customers </p>
+            <br><br><br>
+            <p style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;">
+                DREAMY TRAVELS 2022.All Right Reserved.</p>
+        </div>
+
+        <div class="list" style="height: 200px; width:200px;position: relative;">
+            <ul class="list-item"
+                style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;list-style:none;">
+                <a href="about.html" target="_blank" style="text-decoration:none;color:white;">
+                    <li>About</li>
+                </a>
+                <br>
+
+                <a href="services.html" style="text-decoration:none;color:white;" target="_blank">
+                    <li>Services</li>
+                </a>
+                <br>
+                <li>Privacy Policy</li>
+                <br>
+                <li>Cookie Policy</li>
+                <br>
+                <li>Terms and Conditions</li>
+            </ul>
+        </div>
+
+        <div style="position: relative;">
+            <h1
+                style="font-size: 50px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white;">
+                Keep In Touch</h1>
+            <p style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;">
+                Enjoy
+                15% off your first tour when you join our mailing list.</p><br>
+                <input type="search" placeholder="Enter your e-mail"
+                style="height: 33px; width: 300px; font-size: 20px; font-family: 'Times New Roman', Times, serif;border-radius: 0px;"><a
+                href=""
+                style="text-decoration: none; color: white;background-color:blue; padding: 12px;border-radius: 5px;">JOIN
+                US</a>
+            <br><br>
+            <ul class="icon">
+                <li><i class="fa fa-facebook" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-google-plus" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-instagram" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-pinterest" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-twitter" style="font-size:24px;color: white;"></i></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

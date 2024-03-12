@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .bg-image{
+            background-image: url(assets/beach.jpg);
+            background-position: relative;
+            background-attachment:fixed;
+            background-size:cover ;
+            padding: 20px;
+            
+        }
+        /* Add your CSS styles here */
+        #additionalOptions {
+            display: none;
+            margin-top: 10px;
+            width: 100%;
+            box-sizing: content-box;
+        }
+
+        #additionalOptions select,
+        #additionalOptions input[type="text"] {
+            margin-top: 5px;
+            display: block;
+            height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="assets/new logo.png" alt="" style="height:90px;border-radius: 50%;"></div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="travelpkg.html"target="_self">Travel Packages</a></li>
+                <li><a href="gallery.html"target="_self">Gallery</a></li>
+                <li><a href="services.html" target="_self">Services</a></li>
+                <li><a href="about.html" target="_self">About Us</a></li>
+                <li><a href="contact.html" target="_self">Contact</a></li>
+                <li><a href="book now 1.html" target="_self">Book Now</a></li>
+                
+            </ul>
+        </div>
+        <div class="buttons-container">
+            <a href="signup.html" target=_blank class="sign-up-button">Sign Up</a>
+            <a href="signin.html" target=_blank class="sign-in-button">Sign In</a>
+            </div>
+    </div>
+    <marquee><i><span style="background-color: darkred; color: white;">--- Embark on an unforgettable journey with our exclusive tour experience—where every moment is a page-turner in your adventure story!---</span></i></marquee>
+    <div class="bg-image">
+    <div class="form-container">
+        <h2>Payment Details</h2>
+
+        <form method="post" action="submit.php"></form>
+        <label for="CardHolderName">Card Holder Name:</label>
+        <input type="text" id="CardHolderName" name="CardHolderName" placeholder="Enter Card Holder Name" required>
+
+        <label for="BankName">Bank Name:</label>
+        <input type="text" id="BankName" name="BankName" placeholder="Enter Bank Name" required>
+
+        <label for="AccountNo">Account Number:</label>
+        <input type="text" id="AccountNo" name="AccountNo" placeholder="Enter Account Number" required>
+
+        <label for="ExpiryDate">Expiry Date:</label>
+        <input type="date" id="ExpiryDate" name="ExpiryDate" required>
+       
+        <label for="terms"><u>Terms and Conditions:</u></label>
+        <p>The website provides general information subject to change.
+
+            Users are responsible for verifying product and service suitability.
+            
+            Reservations are subject to availability and confirmation.
+            
+            Website content, design, and graphics are owned or licensed.
+            
+            External links for additional information are provided without endorsement.
+            
+            User data is governed by the website's Privacy Policy.
+            
+            The website isn't liable for damages arising from its use.
+            
+            Use of the website and disputes are subject to specific laws.</p>
+        <input type="checkbox" id="terms" name="terms" required <p>I agree to the terms and conditions.</p>
+        
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</div>
+    <div class="footer">
+        <div class="box" style="height: 300px;width: 500px;;position: relative;">
+            <h1
+                style="font-size: 50px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white;">
+                Dreamy Travels</h1><br><br>
+            <p style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;">
+                Provide the tourist market with the quality personal required by the tourism industry. Produce expeditions and memories that would satisfy each and every single of the customers </p>
+            <br><br><br>
+            <p style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;">
+                DREAMY TRAVELS 2022.All Right Reserved.</p>
+        </div>
+
+        <div class="list" style="height: 200px; width:200px;position: relative;">
+            <ul class="list-item"
+                style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;list-style:none;">
+                <a href="about.html" target="_blank"style="text-decoration:none;color:white;">   <li>About</li>
+                <br>
+
+<a href="services.html"style="text-decoration:none;color:white;" target="_blank"><li>Services</li></a>
+                <br>
+                <li>Privacy Policy</li>
+                <br>
+                <li>Cookie Policy</li>
+                <br>
+                <li>Terms and Conditions</li>
+            </ul>
+        </div>
+
+        <div style="position: relative;">
+            <h1
+                style="font-size: 50px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white;">
+                Keep In Touch</h1>
+            <p style="font-size: 17px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;">
+                Enjoy
+                15% off your first tour when you join our mailing list.</p><br>
+                <input type="search" placeholder="Enter your e-mail"
+                style="height: 33px; width: 300px; font-size: 20px; font-family: 'Times New Roman', Times, serif;border-radius: 0px;"><a
+                href=""
+                style="text-decoration: none; color: white;background-color:blue; padding: 12px;border-radius: 5px;">JOIN
+                US</a>
+            <br><br>
+            <ul class="icon">
+                <li><i class="fa fa-facebook" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-google-plus" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-instagram" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-pinterest" style="font-size:24px;color: white;"></i></li>
+                <li><i class="fa fa-twitter" style="font-size:24px;color: white;"></i></li>
+            </ul>
+        </div>
+    </div>
+</body>
